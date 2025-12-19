@@ -2,7 +2,9 @@
 This study evaluates the performance of five deep learning architectures combined with **SMOTE-based oversampling strategies** (Borderline-SMOTE, KMeans-SMOTE, SVM-SMOTE) and a proposed **Margin Loss function** and **Binary-Crossnetropy Loss function** to handle class imbalance in Indonesian hoax news classification.
 
 ## Project Overview
-- **Dataset:** Indonesian News Dataset (Balanced & Imbalanced scenarios).
+- **Dataset:**
+  The dataset is available for download.
+  [https://drive.google.com/drive/folders/1RLM-C7nxKE82CREzKb2QVr5VA5-J5f8Z?usp=sharing]
 - **Embeddings:** Hybrid features using **IndoBERT** (Transformer) and **Word2Vec**.
 - **Imbalance Handling:** Implemented three variants of SMOTE to address data scarcity in the minority class.
 - **Loss Functions:** Compared standard **Binary Crossentropy** and **Margin Loss**.
